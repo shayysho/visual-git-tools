@@ -1,0 +1,13 @@
+Conflicting Lines:
+- Line on main: Main review note.
+- Line on visual-tools: Feature review note.
+
+Final Resolved Content:
+Main review note.
+Feature review note.
+
+Merge Commit Message:
+Merge branch 'visual-tools' into main (resolved conflict in README.md)
+
+Resolution Explanation:
+The merge conflict occurred because both the main branch and visual-tools branch modified the exact same line in README.md with different text before merging. The conflict was manually resolved in the editor by removing the Git marker lines (<<<<<<<, =======, >>>>>>>) and keeping both review notes sequentially so no information was lost. The change was then marked as resolved and committed as a merge commit.
