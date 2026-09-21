@@ -1,0 +1,5 @@
+Stash Usage Explanation:
+Stashing allows a developer to temporarily shelve local, uncommitted changes without making a permanent commit. This is useful when you need to quickly switch branches to fix an urgent bug or pull incoming changes, without mixing incomplete work into project history.
+
+Scenario for Stashing:
+A developer is halfway through writing a new payment feature on a feature branch when a critical bug fix is reported in production. Instead of making an messy incomplete commit or discarding local work, the developer stashes the payment code, switches to the bugfix branch, fixes the issue, and then pops/restores the stashed payment changes to resume work seamlessly.
