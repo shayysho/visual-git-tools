@@ -1,0 +1,18 @@
+Repository URL: https://github.com/shayysho/visual-git-tools
+
+Branch Names:
+- main
+- visual-tools
+
+Feature Commit Messages:
+1. Add checkout calculation function
+2. Add docstring to calculate_total in checkout.py
+
+Graph Questions & Explanations:
+- Shared commits with main: The initial commit ("Initial commit") is shared by both main and visual-tools.
+- Unique commits to visual-tools: The two feature commits ("Add checkout calculation function" and "Add docstring to calculate_total in checkout.py") exist only on the visual-tools branch.
+- Location of HEAD: HEAD currently points to the tip of the active local branch, visual-tools (specifically at the latest commit: "Add docstring to calculate_total in checkout.py").
+- Branch label pointing to newest feature commit: The visual-tools branch label points to the newest feature commit.
+
+Graph Explanation:
+The history graph illustrates branching in Git. The main branch contains the baseline initial commit. When the visual-tools branch was created from main, it inherited that history and diverged with two sequential feature commits dedicated to checkout.py. HEAD tracks our current working position at the latest commit on visual-tools, while main remains at the initial commit state until a merge occurs.
