@@ -1,0 +1,13 @@
+Branch and Merge Workflow:
+- Branch before merge: visual-tools branch contained feature commits while main was sitting at the initial commit state.
+- Merge operation: Used GitHub Desktop "Branch > Merge into current branch..." to integrate visual-tools into main.
+- Remote update: Created a direct commit on GitHub online editing README.md.
+- Synchronization: Used "Fetch origin" to detect remote changes and "Pull origin" to update local main with remote commits.
+
+GUI Actions and Git Vocabulary Mapping:
+- Current Branch: Represents HEAD pointing to the active working branch (e.g., main or visual-tools).
+- Publish Branch: Runs 'git push -u origin <branch>' to push a local branch to the remote GitHub repository for the first time.
+- Fetch Origin: Runs 'git fetch', querying the remote server to check for new commits without modifying local files.
+- Pull Origin: Runs 'git pull' (fetch + merge), downloading remote changes and combining them into the active local branch.
+- Merge: Runs 'git merge', integrating commit histories from a specified feature branch into the current target branch.
+- Push: Runs 'git push', sending local commits from your local repository up to the remote repository on GitHub.
