@@ -1,3 +1,4 @@
 def calculate_total(price, tax_rate):
     """Calculates the total price including tax."""
-    return price + (price * tax_rate)
+    total = price + (price * tax_rate)
+    return total + 10
