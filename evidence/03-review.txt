@@ -1,0 +1,10 @@
+Commit Messages:
+1. Remove extra fee from total calculation
+2. Update README description for lab overview
+
+File Summary:
+- Commit 1: Modified checkout.py to clean up the calculation logic and remove temporary fees.
+- Commit 2: Modified README.md to add project documentation and description.
+
+Why Separating Changes is Safer:
+Separating unrelated changes into distinct commits ensures that each commit represents a single atomic change. If an issue is later discovered in the calculation logic of checkout.py, that specific commit can be reviewed, reverted, or cherry-picked without accidentally affecting or undoing the documentation updates made to README.md. This practice makes code reviews cleaner, debugging via git bisect simpler, and rolling back changes safer.
